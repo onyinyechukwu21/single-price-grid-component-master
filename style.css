@@ -1,0 +1,88 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+    --cyan: hsl(179, 62%, 43%);
+    --cyan2: hsl(179, 62%, 60%);
+    --Bright-Yellow: hsl(71, 73%, 54%);
+    --Light-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+}
+.container{
+     width: 600px;
+     margin: 0 auto;
+}
+.upper-section h2{
+    color: var(--cyan);
+    padding: 20px 0;
+}
+.clan1{
+    color: var(--Bright-Yellow);
+    padding-bottom: 10px ;
+}
+.clan2{
+    color: var(--Grayish-Blue);
+}
+body{
+    background-color: rgb(237, 244, 247);
+}
+.upper-section{
+    background-color: white;
+    padding: 25px;
+}
+.lower-section{
+    display: flex;
+    color: var(--Light-Gray);
+
+}
+.leftside{
+    background-color: var(--cyan);
+    padding: 25px ;
+    flex-basis: 100%;
+}
+.rightside{
+    background-color: var(--cyan2);
+    flex-basis: 100%;
+    padding: 25px;
+}
+h3{
+    font-size: 15px;
+    padding-bottom: 10px;
+    color: white;
+}
+span{
+    font-size: 22px;
+    color: white;
+}
+.lower-section p{
+ line-height: 20px;
+}
+button{
+    border: none;
+    width: 100%;
+    padding: 10px 0;
+    background-color: var(--Bright-Yellow);
+    color: var(--Light-Gray);
+    border-radius: 5px;
+    margin-top: 40px;
+}
+.ss{
+    margin-bottom: 20px;
+
+}
+.jk{
+    margin-bottom: 20px;
+}
